@@ -1,0 +1,803 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+header{
+  border: 1px solid black;
+  width: 1400px;
+  margin: 0 auto;
+  height: auto;
+  background-color: rgb(19, 0, 81);
+
+  a{
+  color: red;
+  font-size: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+a.logo__link{
+  text-shadow: 0px 0px 10px red;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+}
+
+.container{
+  border: 1px solid rgb(19, 0, 81);
+  max-width: 1200px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+
+h2{
+  color: red;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding-top: 20px;
+  transition: all .3s ease-in-out;
+}
+
+h2.pizza__title{
+
+  color: yellow ;
+}
+
+main{
+  border: 1px solid black;
+  width: 1400px;
+  margin: 0 auto;
+  height: auto;
+  background-color: rgb(19, 0, 81)
+}
+
+
+
+
+.main__elements__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 70px;
+}
+
+.pizza__box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 50px;
+}
+
+
+// PIZZA INGREDIENTS START
+
+.pizza__first--circle{
+  // position: relative;
+  border: 1px solid rgb(255, 219, 151);
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  // display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 219, 151);
+  transition: all .3s ease-in-out;
+  &:hover{
+    box-shadow: 0px 0px 40px yellow;
+  }
+}
+
+// SAUCE
+.pizza__tomato{
+  position: relative;
+  border: 1px solid red;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 430px;
+  height: 430px;
+  background-color: red;
+  display: flex;
+  display: none;
+}
+
+
+
+.market__sausage{
+  position: absolute;
+  display: flex;
+  // display: none;
+  z-index: 1;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: -20px;
+  margin-left: -75px;
+
+  .sausage{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 290px;
+    margin-left: 60px;
+  }
+
+  .sausage1{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 180px;
+    margin-left: -120px;
+  }
+
+  .sausage2{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 70px;
+    margin-left: -60px;
+  }
+
+  .sausage3{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  .sausage4{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .sausage5{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 125px;
+    margin-left: -180px;
+  }
+
+  .sausage6{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 225px;
+    margin-left: -60px;
+  }
+
+  .sausage7{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 135px;
+    margin-left: -10px;
+  }
+
+  .sausage8{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 95px;
+    margin-left: 10px;
+  }
+
+  .sausage9{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 225px;
+    margin-left: -150px;
+  }
+
+  .sausage10{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 205px;
+    margin-left: 10px;
+  }
+
+  .sausage11{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 335px;
+    margin-left: -260px;
+  }
+
+  .sausage12{
+    border: 1px solid rgb(135, 0, 0);
+    background-color: rgb(135, 0, 0);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    margin-left: 30px;
+  }
+}
+
+.olives{
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  // display: none;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: -95px;
+
+  .olive{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: -10px;
+  }
+
+  .olive1{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: -10px;
+    margin-left: -5px;
+  }
+
+  .olive2{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: -35px;
+    margin-left: 40px;
+  }
+
+  .olive3{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    margin-left: 40px;
+  }
+
+  .olive4{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    margin-left: 5px;
+  }
+
+  .olive5{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 180px;
+    margin-left: -30px;
+  }
+
+  .olive6{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 210px;
+    margin-left: -130px;
+  }
+
+  .olive7{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 210px;
+    margin-left: -120px;
+  }
+
+  .olive8{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 140px;
+    margin-left: -80px;
+  }
+
+  .olive9{
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 90px;
+    margin-left: 60px;
+  }
+}
+
+.hens__meat{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  // display: none;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: -10px;
+  margin-left: -110px;
+
+  .hen__meat{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 360px;
+    margin-left: 100px;
+  }
+
+  .hen__meat1{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 270px;
+    margin-left: -130px;
+  }
+
+  .hen__meat2{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 145px;
+    margin-left: -50px;
+  }
+
+  .hen__meat3{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+
+  .hen__meat4{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+
+  .hen__meat5{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    margin-left: 70px;
+  }
+
+  .hen__meat6{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 165px;
+    margin-left: 20px;
+  }
+
+  .hen__meat7{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 295px;
+    margin-left: -65px;
+  }
+
+  .hen__meat8{
+    border: 1px solid rgb(255, 243, 200);
+    background-color: rgb(255, 243, 200);
+    border-bottom-right-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 370px;
+    margin-left: -150px;
+  }
+
+}
+
+div.cheese{
+  position: absolute;
+  display: flex;
+  // display: none;
+  border: 1px solid yellow;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 415px;
+  height: 415px;
+  opacity: 0.6;
+}
+
+.tomatoes{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  // display: none;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: -45px;
+  margin-left: -100px;
+
+  .tomato{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 185px;
+    margin-left: -15px;
+  }
+
+  .tomato1{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: -50px;
+  }
+
+  .tomato2{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: -5px;
+  }
+
+  .tomato3{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 5px;
+  }
+
+  .tomato4{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 125px;
+    margin-left: 0px;
+  }
+
+  .tomato5{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 210px;
+    margin-left: -60px;
+  }
+
+  .tomato6{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 290px;
+    margin-left: -120px;
+  }
+
+  .tomato7{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 310px;
+    margin-left: -160px;
+  }
+
+  .tomato8{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 280px;
+    margin-left: -150px;
+  }
+
+  .tomato9{
+    border: 5px solid rgb(216, 0, 0);
+    border-radius: 50%;
+    background-color: tomato;
+    width: 50px;
+    height: 50px;
+    margin-top: 190px;
+    margin-left: 30px;
+  }
+}
+
+
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+
+
+.tomato__sauce__box{
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    box-shadow: 0px 0px 30px red;
+    background-color: rgb(151, 0, 0);
+  }
+
+
+  .tomato__sauce__title{
+    font-size: 30px;
+    color: red;
+  }
+
+  #check__tomato{
+    width: 30px;
+    height: 30px;
+  }
+
+
+}
+
+.sausage__inp__box{
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    box-shadow: 0px 0px 30px red;
+    background-color: rgb(151, 0, 0);
+  }
+
+
+  .sausage__title{
+    font-size: 30px;
+    color: red;
+  }
+
+  #check__sausage{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.olives__inp__box{
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    box-shadow: 0px 0px 30px red;
+    background-color: rgb(151, 0, 0);
+  }
+
+
+  .olives__title{
+    font-size: 30px;
+    color: red;
+  }
+
+  #check__olives{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.hens__inp__box{
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    box-shadow: 0px 0px 30px red;
+    background-color: rgb(151, 0, 0);
+  }
+
+
+  .hens__title{
+    font-size: 30px;
+    color: red;
+  }
+
+  #check__hens{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.cheese__inp__box{
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    box-shadow: 0px 0px 30px red;
+    background-color: rgb(151, 0, 0);
+  }
+
+
+  .cheese__title{
+    font-size: 30px;
+    color: red;
+  }
+
+  #check__cheese{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.tomatoes__inp__box{
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    box-shadow: 0px 0px 30px red;
+    background-color: rgb(151, 0, 0);
+  }
+
+
+  .tomatoes__title{
+    font-size: 30px;
+    color: red;
+  }
+
+  #check__tomatoes{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+
+.price__box{
+  text-align: center;
+}
+.price__title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(188, 0, 0);
+  font-size: 50px;
+}
+
+
+// @media screen and (max-width: 1200px) {
+//   .main__elements__box{
+//     display: flex;
+//     flex-direction: column-reverse;
+//   }
+// }
+
+// @media screen and (max-width: 800px) {
+//   h1{
+//     text-align: center;
+//   }
+
+//   .pizza__first--circle{
+//     width: 300px;
+//     height: 300px;
+//   }
+// }

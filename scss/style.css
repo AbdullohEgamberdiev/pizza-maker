@@ -1,0 +1,692 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  border: 1px solid black;
+  width: 1400px;
+  margin: 0 auto;
+  height: auto;
+  background-color: rgb(19, 0, 81);
+}
+header a {
+  color: red;
+  font-size: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+header a.logo__link {
+  text-shadow: 0px 0px 10px red;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  border: 1px solid rgb(19, 0, 81);
+  max-width: 1200px;
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: red;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+h2.pizza__title {
+  color: yellow;
+}
+
+main {
+  border: 1px solid black;
+  width: 1400px;
+  margin: 0 auto;
+  height: auto;
+  background-color: rgb(19, 0, 81);
+}
+
+.main__elements__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 70px;
+}
+
+.pizza__box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza__first--circle {
+  border: 1px solid rgb(255, 219, 151);
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 219, 151);
+  transition: all 0.3s ease-in-out;
+}
+.pizza__first--circle:hover {
+  box-shadow: 0px 0px 40px yellow;
+}
+
+.pizza__tomato {
+  position: relative;
+  border: 1px solid red;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 430px;
+  height: 430px;
+  background-color: red;
+  display: flex;
+  display: none;
+}
+
+.market__sausage {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: -20px;
+  margin-left: -75px;
+}
+.market__sausage .sausage {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 290px;
+  margin-left: 60px;
+}
+.market__sausage .sausage1 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 180px;
+  margin-left: -120px;
+}
+.market__sausage .sausage2 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 70px;
+  margin-left: -60px;
+}
+.market__sausage .sausage3 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+.market__sausage .sausage4 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.market__sausage .sausage5 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 125px;
+  margin-left: -180px;
+}
+.market__sausage .sausage6 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 225px;
+  margin-left: -60px;
+}
+.market__sausage .sausage7 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 135px;
+  margin-left: -10px;
+}
+.market__sausage .sausage8 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 95px;
+  margin-left: 10px;
+}
+.market__sausage .sausage9 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 225px;
+  margin-left: -150px;
+}
+.market__sausage .sausage10 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 205px;
+  margin-left: 10px;
+}
+.market__sausage .sausage11 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 335px;
+  margin-left: -260px;
+}
+.market__sausage .sausage12 {
+  border: 1px solid rgb(135, 0, 0);
+  background-color: rgb(135, 0, 0);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 315px;
+  margin-left: 30px;
+}
+
+.olives {
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: -95px;
+}
+.olives .olive {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: 50px;
+  margin-left: -10px;
+}
+.olives .olive1 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+.olives .olive2 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: -35px;
+  margin-left: 40px;
+}
+.olives .olive3 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: -5px;
+  margin-left: 40px;
+}
+.olives .olive4 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: 80px;
+  margin-left: 5px;
+}
+.olives .olive5 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: 180px;
+  margin-left: -30px;
+}
+.olives .olive6 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: 210px;
+  margin-left: -130px;
+}
+.olives .olive7 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: 210px;
+  margin-left: -120px;
+}
+.olives .olive8 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: 140px;
+  margin-left: -80px;
+}
+.olives .olive9 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: 90px;
+  margin-left: 60px;
+}
+
+.hens__meat {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: -10px;
+  margin-left: -110px;
+}
+.hens__meat .hen__meat {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 360px;
+  margin-left: 100px;
+}
+.hens__meat .hen__meat1 {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 270px;
+  margin-left: -130px;
+}
+.hens__meat .hen__meat2 {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 145px;
+  margin-left: -50px;
+}
+.hens__meat .hen__meat3 {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.hens__meat .hen__meat4 {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.hens__meat .hen__meat5 {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 60px;
+  margin-left: 70px;
+}
+.hens__meat .hen__meat6 {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 165px;
+  margin-left: 20px;
+}
+.hens__meat .hen__meat7 {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 295px;
+  margin-left: -65px;
+}
+.hens__meat .hen__meat8 {
+  border: 1px solid rgb(255, 243, 200);
+  background-color: rgb(255, 243, 200);
+  border-bottom-right-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: 370px;
+  margin-left: -150px;
+}
+
+div.cheese {
+  position: absolute;
+  display: flex;
+  border: 1px solid yellow;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 415px;
+  height: 415px;
+  opacity: 0.6;
+}
+
+.tomatoes {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  gap: 10px;
+  box-sizing: border-box;
+  margin-top: -45px;
+  margin-left: -100px;
+}
+.tomatoes .tomato {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 185px;
+  margin-left: -15px;
+}
+.tomatoes .tomato1 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+.tomatoes .tomato2 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: -5px;
+}
+.tomatoes .tomato3 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+.tomatoes .tomato4 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 125px;
+  margin-left: 0px;
+}
+.tomatoes .tomato5 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 210px;
+  margin-left: -60px;
+}
+.tomatoes .tomato6 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 290px;
+  margin-left: -120px;
+}
+.tomatoes .tomato7 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 310px;
+  margin-left: -160px;
+}
+.tomatoes .tomato8 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 280px;
+  margin-left: -150px;
+}
+.tomatoes .tomato9 {
+  border: 5px solid rgb(216, 0, 0);
+  border-radius: 50%;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  margin-top: 190px;
+  margin-left: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tomato__sauce__box {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.tomato__sauce__box:hover {
+  box-shadow: 0px 0px 30px red;
+  background-color: rgb(151, 0, 0);
+}
+.tomato__sauce__box .tomato__sauce__title {
+  font-size: 30px;
+  color: red;
+}
+.tomato__sauce__box #check__tomato {
+  width: 30px;
+  height: 30px;
+}
+
+.sausage__inp__box {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.sausage__inp__box:hover {
+  box-shadow: 0px 0px 30px red;
+  background-color: rgb(151, 0, 0);
+}
+.sausage__inp__box .sausage__title {
+  font-size: 30px;
+  color: red;
+}
+.sausage__inp__box #check__sausage {
+  width: 30px;
+  height: 30px;
+}
+
+.olives__inp__box {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.olives__inp__box:hover {
+  box-shadow: 0px 0px 30px red;
+  background-color: rgb(151, 0, 0);
+}
+.olives__inp__box .olives__title {
+  font-size: 30px;
+  color: red;
+}
+.olives__inp__box #check__olives {
+  width: 30px;
+  height: 30px;
+}
+
+.hens__inp__box {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.hens__inp__box:hover {
+  box-shadow: 0px 0px 30px red;
+  background-color: rgb(151, 0, 0);
+}
+.hens__inp__box .hens__title {
+  font-size: 30px;
+  color: red;
+}
+.hens__inp__box #check__hens {
+  width: 30px;
+  height: 30px;
+}
+
+.cheese__inp__box {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.cheese__inp__box:hover {
+  box-shadow: 0px 0px 30px red;
+  background-color: rgb(151, 0, 0);
+}
+.cheese__inp__box .cheese__title {
+  font-size: 30px;
+  color: red;
+}
+.cheese__inp__box #check__cheese {
+  width: 30px;
+  height: 30px;
+}
+
+.tomatoes__inp__box {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.tomatoes__inp__box:hover {
+  box-shadow: 0px 0px 30px red;
+  background-color: rgb(151, 0, 0);
+}
+.tomatoes__inp__box .tomatoes__title {
+  font-size: 30px;
+  color: red;
+}
+.tomatoes__inp__box #check__tomatoes {
+  width: 30px;
+  height: 30px;
+}
+
+.price__box {
+  text-align: center;
+}
+
+.price__title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(188, 0, 0);
+  font-size: 50px;
+}/*# sourceMappingURL=style.css.map */
